@@ -1,3 +1,12 @@
+# <p align="center">  <p align="center">![https://storevps.net/wp-content/uploads/2017/06/logo1-1.png](https://storevps.net/wp-content/uploads/2017/06/logo1-1.png)
+# <p align="center">😯SVcli😯
+# <p align="center">👉 site : [StoreVps](https://storevps.net/)
+# <p align="center">👉 Channel : [@storevps](http://telegram.me/storevps)
+# <p align="center">👉 convert bot to api by :  [@kamranya](http://telegram.me/kamranya)
+
+# <p align="right">install:
+
+---------------------------------------------------------
 cd $home
 
 sudo apt-get install libreadline6 -y
