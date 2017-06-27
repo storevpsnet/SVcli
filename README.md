@@ -4,7 +4,7 @@
 # <p align="center">👉 Channel : [@storevps](http://telegram.me/storevps)
 # <p align="center">👉 edit source :  [@kamranya](http://telegram.me/kamranya)
 
-# <p align="right">install:
+# install:
 
 ---------------------------------------------------------
 cd $home
@@ -36,11 +36,11 @@ cd $home
 git clone https://github.com/storevpsnet/SVcli.git
 
 --------------------------------------------------------------------
-
+<p align="right">
 فایل cli باز کنید
 و در خط های 12-13-11
 ایدی اکانت ربات و خود را بگذارید و سیو کنید
-
+</p>
 -------------------------------------------------------------------
 cd SVcli
 
@@ -52,7 +52,10 @@ chmod 777 launch.sh
 
 chmod 777 cli.lua
 
+chmod 777 tg
+
 ./start.sh install
+
 
 ---------------------------------------------------------------------
 برای اتولانچ
