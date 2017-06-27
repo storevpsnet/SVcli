@@ -2,7 +2,7 @@
 # <p align="center">😯SVcli😯
 # <p align="center">👉 site : [StoreVps](https://storevps.net/)
 # <p align="center">👉 Channel : [@storevps](http://telegram.me/storevps)
-# <p align="center">👉 convert bot to api by :  [@kamranya](http://telegram.me/kamranya)
+# <p align="center">👉 edit source :  [@kamranya](http://telegram.me/kamranya)
 
 # <p align="right">install:
 
