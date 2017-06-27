@@ -1,3 +1,5 @@
+cd $home
+
 sudo apt-get install libreadline6 -y
 
 sudo apt-get update
@@ -13,6 +15,14 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev -y
 
 --------------------------------------------------------------------
+cd $home
+
+wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+
+tar zxpf luarocks-2.2.2.tar.gz
+
+--------------------------------------------------------------------
+cd $home
 
 git clone https://github.com/storevpsnet/SVcli.git
 
