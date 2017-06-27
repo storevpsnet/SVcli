@@ -30,6 +30,29 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
 
 tar zxpf luarocks-2.2.2.tar.gz
 
+cd luarocks-2.2.2
+
+	./configure
+
+	sudo make bootstrap
+
+	sudo luarocks install luasec
+
+	sudo luarocks install luasocket
+
+	sudo luarocks install redis-lua
+
+	sudo luarocks install lua-term
+
+	sudo luarocks install serpent
+
+	sudo luarocks install dkjson
+
+	sudo luarocks install Lua-cURL
+
+	sudo apt-get install libnotify-dev -y
+
+
 --------------------------------------------------------------------
 cd $home
 
