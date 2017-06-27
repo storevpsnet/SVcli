@@ -67,8 +67,6 @@ git clone https://github.com/storevpsnet/SVcli.git
 -------------------------------------------------------------------
 cd SVcli
 
-chmod 777 start.sh
-
 chmod 777 auto.sh
 
 chmod 777 launch.sh
@@ -77,7 +75,7 @@ chmod 777 cli.lua
 
 chmod 777 tg
 
-./start.sh install
+./launch.sh install
 
 
 ---------------------------------------------------------------------
