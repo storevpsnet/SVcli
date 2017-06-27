@@ -1,34 +1,27 @@
+سیستم عامل فقط باید اوبنتو 16 ، 64 بیت باشه
 
-مراحل نصب
-مرحله 1
+بعد کد های زیر رو تک تک وارد کنید
 
-`bash
-sudo apt-get install libreadline6 -y
+git clone https://github.com/Source-advan/ESET
+
+cd ESET
 
 sudo apt-get update
 
-sudo apt-get dist-upgrade -y
 
-sudo apt-get upgrade -y
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make autoconf unzip git redis-server g++ -y —force-yes
 
-sudo apt-get install git -y
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
+sudo apt-get install libreadline-dev libssl-dev lua5.2 liblua5.2-dev git make unzip redis-server curl libcurl4-gnutls-dev
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev -y
 
-`
- 
- مرحله 2
- 
- `bash
- 
- 
+wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+
+tar zxpf luarocks-2.2.2.tar.gz
+
 cd luarocks-2.2.2
 
-./configure
-
-sudo make bootstrap
+./configure; sudo make bootstrap
 
 sudo luarocks install luasec
 
@@ -44,40 +37,25 @@ sudo luarocks install dkjson
 
 sudo luarocks install Lua-cURL
 
+cd ..
+
 sudo apt-get install lua-lgi
 
 sudo apt-get install libnotify-dev
-`
-نحوه نصب سورس
-`bash
-
-git clone https://github.com/storevpsnet/SVcli.git
-`
-  `bash
-  اضافه کردن ایدی سودو و سازنده ربات در خط های
-  12 va 13
-  و ایدی اکانت ربات در خط 11
-  و فایل cli
-  و فایل سیو کنید
-  `
-`bash
-cd SVcli
-
-chmod 777 launch.sh
-
-chmod 777 start.sh
-
-chmod 777 auto.sh
-
-chmod 777 cli.lua
-`
-`bash
-./start.sh install
-`
-#autolaunch
-`bash
-cd SVcli
-screen auto.sh
-`
 
 
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+
+
+
+sudo chmod +x ESET.lua
+
+sudo chmod +x start.sh
+
+sudo chmod +x tg
+
+بعدش دستور 
+
+screen ./start.sh
+
+رو بزنید و بهش شماره بدید.
