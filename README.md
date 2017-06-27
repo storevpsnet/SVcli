@@ -18,8 +18,12 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev -y
 
 `
+ 
  مرحله 2
+ 
  `bash
+ 
+ 
 cd luarocks-2.2.2
 
 ./configure
@@ -47,7 +51,7 @@ sudo apt-get install libnotify-dev
 نحوه نصب سورس
 `bash
 
-git clone 
+git clone https://github.com/storevpsnet/SVcli.git
 `
   `bash
   اضافه کردن ایدی سودو و سازنده ربات در خط های
