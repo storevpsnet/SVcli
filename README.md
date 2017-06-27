@@ -1,61 +1,45 @@
-سیستم عامل فقط باید اوبنتو 16 ، 64 بیت باشه
-
-بعد کد های زیر رو تک تک وارد کنید
-
-git clone https://github.com/Source-advan/ESET
-
-cd ESET
+sudo apt-get install libreadline6 -y
 
 sudo apt-get update
 
+sudo apt-get dist-upgrade -y
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make autoconf unzip git redis-server g++ -y —force-yes
+sudo apt-get upgrade -y
 
+sudo apt-get install git -y
 
-sudo apt-get install libreadline-dev libssl-dev lua5.2 liblua5.2-dev git make unzip redis-server curl libcurl4-gnutls-dev
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
 
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev -y
 
-wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+--------------------------------------------------------------------
 
-tar zxpf luarocks-2.2.2.tar.gz
+git clone https://github.com/storevpsnet/SVcli.git
 
-cd luarocks-2.2.2
+--------------------------------------------------------------------
 
-./configure; sudo make bootstrap
+فایل cli باز کنید
+و در خط های 12-13-11
+ایدی اکانت ربات و خود را بگذارید و سیو کنید
 
-sudo luarocks install luasec
+-------------------------------------------------------------------
+cd SVcli
 
-sudo luarocks install luasocket
+chmod 777 start.sh
 
-sudo luarocks install redis-lua
+chmod 777 auto.sh
 
-sudo luarocks install lua-term
+chmod 777 launch.sh
 
-sudo luarocks install serpent
+chmod 777 cli.lua
 
-sudo luarocks install dkjson
+./start.sh install
 
-sudo luarocks install Lua-cURL
+---------------------------------------------------------------------
+برای اتولانچ
 
-cd ..
+killall screen
 
-sudo apt-get install lua-lgi
+cd SVcli
 
-sudo apt-get install libnotify-dev
-
-
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
-
-
-
-sudo chmod +x ESET.lua
-
-sudo chmod +x start.sh
-
-sudo chmod +x tg
-
-بعدش دستور 
-
-screen ./start.sh
-
-رو بزنید و بهش شماره بدید.
+screen auto.sh
