@@ -1,4 +1,5 @@
----edit ESET 3.5
+-- ESET NOD 32 Source
+-- Created On Dec 2016
 serpent = require("serpent")
 lgi = require('lgi')
 redis = require('redis')
