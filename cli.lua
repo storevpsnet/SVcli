@@ -1,3 +1,4 @@
+---edit ESET 3.5
 serpent = require("serpent")
 lgi = require('lgi')
 redis = require('redis')
