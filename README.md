@@ -59,7 +59,7 @@ cd $home
 git clone https://github.com/storevpsnet/SVcli.git
 
 --------------------------------------------------------------------
-<p align="center">باسلام</p>>
+<p align="center">باسلام</p>
 <p align="right">
 فایل
 cli
