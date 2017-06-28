@@ -7,6 +7,7 @@
 # install:
 
 ---------------------------------------------------------
+
 cd $home
 
 sudo apt-get install libreadline6 -y
@@ -24,6 +25,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev -y
 
 --------------------------------------------------------------------
+
 cd $home
 
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
@@ -54,11 +56,13 @@ cd luarocks-2.2.2
 
 
 --------------------------------------------------------------------
+
 cd $home
 
 git clone https://github.com/storevpsnet/SVcli.git
 
 --------------------------------------------------------------------
+
 <p align="center">باسلام</p>
 <p align="right"> فایل زیر را پیدا کنید و باز کنید</p>
 <p align="center"> cli </p>
@@ -66,6 +70,7 @@ git clone https://github.com/storevpsnet/SVcli.git
  و در لاین های زیر آیدی اکانت سودو را قرار دهید
 </p>
 <p align="center"> 13 & 12 </p>
+
 -------------------------------------------------------------------
 
 cd SVcli
@@ -82,6 +87,7 @@ chmod 777 tg
 
 
 ---------------------------------------------------------------------
+
 <p align="right">
 برای اتولانچ
 </p>
