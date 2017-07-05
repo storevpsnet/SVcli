@@ -34,7 +34,9 @@ git clone https://github.com/storevpsnet/SVcli.git
 
 cd SVcli
 
-wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+sudo apt-get install axel
+
+axel http://luarocks.org/releases/luarocks-2.2.2.tar.gz
 
 tar zxpf luarocks-2.2.2.tar.gz
 
