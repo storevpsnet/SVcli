@@ -1,3 +1,5 @@
+#<p align="center"> <h4>update in 2017/07/06</h4></p>
+
 # <p align="center">  <p align="center">![https://storevps.net/wp-content/uploads/2017/06/logo1-1.png](https://storevps.net/wp-content/uploads/2017/06/logo1-1.png)
 # <p align="center">😯SVcli😯
 # <p align="center">👉 site : [StoreVps](https://storevps.net/)
@@ -43,6 +45,10 @@ tar zxpf luarocks-2.2.2.tar.gz
 cd luarocks-2.2.2
 
 	./configure
+
+	make build
+	
+	make install
 
 	sudo make bootstrap
 
