@@ -1,4 +1,4 @@
-<h1 align="center"><span style="font-family:times new roman,times,serif;"><span style="color:#000000;"><span style="font-size: 36px;"><samp><span style="background-color:#A9A9A9;">update in 2017/07/08</span></samp></span></span></span></h1>
+<h1 align="center"><span style="font-family:times new roman,times,serif;"><span style="color:#000000;"><span style="font-size: 36px;"><samp><span style="background-color:#A9A9A9;">update in 2017/07/13</span></samp></span></span></span></h1>
 
 
 # <p align="center">  <p align="center">![https://storevps.net/wp-content/uploads/2017/06/logo1-1.png](https://storevps.net/wp-content/uploads/2017/06/logo1-1.png)
@@ -11,6 +11,8 @@
 
 ---------------------------------------------------------
 
+ دستورات تک تک زده شوند
+ 
 cd $home
 
 sudo apt-get install libreadline6 -y
